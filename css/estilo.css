@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 500%;
+    background-color: #cecaca;
+    height: 1000px;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+.container .card {
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+    border:0px solid transparent ;
+    border-radius: 3px;
+    box-shadow: none;
+    background-color: rgb(236, 236, 236);
+    margin: 5px;
+    margin-right: 10px;
+
+
+}
+
+.container .card .producti-image {
+    width: 230px;
+    margin: 20px auto;
+
+}
+
+.container .card .producti-image img {
+    width: 100%;
+    transform: 0.6s;
+}
+
+.container .card .producti-image img:hover {
+    transform: scale(1.1);
+}
+
+
+.container .card .product-info h4{
+    font-size: 18px;
+    padding: 0 25px;
+    margin-bottom: 15px;
+
+}
+
+.precio1{
+    color: rgb(182, 1, 1);
+}
+
+.precio2 {
+    color: rgb(4, 179, 19);
+}
+
+.precio3{
+    color:rgb(106, 83, 235);
+}
+
+
+
+.container .card .btn {
+    width: 100%;
+
+}
+
+.container .card button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+.container .card button:hover {
+    background-color: rgb(4, 0, 240);
+
+}
+
+
+.container .card button:active {
+    background-color: #fd0e0e;
+
+}
+
+.boton3 {
+    background-color: rgb(106, 83, 235);
+    
+}
+
+.boton2 {
+    background-color: rgb(4, 179, 19);
+
+}
+
+.boton1 {
+    background-color:rgb(182, 1, 1) ;
+}
+
+.product-info{
+   
+  list-style: none;
+}
